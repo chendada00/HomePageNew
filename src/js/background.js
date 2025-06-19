@@ -1407,14 +1407,19 @@ document.addEventListener("mousedown", e => {
 });
 
 document.addEventListener("mousemove", e => {
+
 	if (switchPage && switchPage.switched) {
-		return
+		return;
 	}
 	let pointer = pointers[0];
-	if (!pointer.down) return;
+	if (!pointer) {
+		pointer = new pointerPrototype();
+		pointers[0] = pointer;
+	}
 	let posX = scaleByPixelRatio(e.pageX);
 	let posY = scaleByPixelRatio(e.pageY);
 	updatePointerMoveData(pointer, posX, posY);
+	pointer.moved = true;
 });
 
 document.addEventListener("mouseup", () => {

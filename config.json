@@ -1,44 +1,45 @@
 {
 	"head": {
-		"title": "SimonAKing",
-		"description": "Author:SimonAKing,Category:Personal Blog",
+		"title": "伴随",
+		"description": "Author:SKY BO",
 		"favicon": "favicon.ico"
 	},
 	"intro": {
-		"title": "SimonAKing",
-		"subtitle": "Front back left right end engineer",
-		"enter": "enter",
-		"supportAuthor": true,
+		"title": "WOW",
+		"subtitle": "请保持那份热爱 奔赴下一场山海",
+		"enter": "伴随",
+		"supportAuthor": false,
 		"background": true
 	},
 	"main": {
-		"name": "SimonAKing",
-		"signature": "Code & Input & Output",
+		"name": "SKY BO",
+		"signature": "一定要爱着点什么，它让我们变得坚韧、宽容、充盈。业余的，爱着。",
 		"avatar": {
-			"link": "assets/avatar.jpg",
+			"link": "assets/avatar.png",
 			"height": "100",
 			"width": "100"
 		},
 		"ul": {
 			"first": {
-				"href": "blog/",
-				"icon": "bokeyuan",
+				"href": "https://blog.ctext.top/",
+				"icon": "chengzi",
 				"text": "Blog"
 			},
+ 
 			"second": {
-				"href": "about/",
-				"icon": "xiaolian",
-				"text": "About"
+				"href": "https://blog.ctext.top/growth.html",
+				"icon": "shijian",
+				"text": "Blog Years"
 			},
 			"third": {
-				"href": "mailto:simon@tomotoes.com",
-				"icon": "email",
-				"text": "Email"
+				"href": "https://nav.ctext.top/",
+				"icon": "daohang",
+				"text": "Nav"
 			},
 			"fourth": {
-				"href": "https://github.com/tomotoes",
-				"icon": "github",
-				"text": "Github"
+				"href": "https://blog.ctext.top/about/",
+				"icon": "guanyu",
+				"text": "About"
 			}
 		}
 	}

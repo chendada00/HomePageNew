@@ -21,23 +21,23 @@
 		},
 		"ul": {
 			"first": {
-				"href": "https://blog.ctext.top/",
+				"href": "https://blog.伴随.cn/",
 				"icon": "chengzi",
 				"text": "Blog"
 			},
  
 			"second": {
-				"href": "https://blog.ctext.top/growth.html",
+				"href": "https://blog.伴随.cn/growth.html",
 				"icon": "shijian",
 				"text": "Blog Years"
 			},
 			"third": {
-				"href": "https://nav.ctext.top/",
+				"href": "https://nav.伴随.cn/",
 				"icon": "daohang",
 				"text": "Nav"
 			},
 			"fourth": {
-				"href": "https://blog.ctext.top/about/",
+				"href": "https://blog.伴随.cn/about/",
 				"icon": "guanyu",
 				"text": "About"
 			}

@@ -13,6 +13,8 @@
 		padding: 0;
 		border: 0;
 		width: 35%;
+		display: flex;
+		flex-direction: column;
 
 		@media screen and (max-width: 1024px) {
 			width: 45%;
@@ -40,6 +42,10 @@
 					font-size: 0.8rem !important;
 
 				}
+			}
+
+			footer.beian-footer {
+				font-size: 0.65rem !important;
 			}
 		}
 
@@ -112,6 +118,28 @@
 						color: #f6f6f6;
 						text-shadow: 0 0 2px #f6f6f6;
 					}
+				}
+			}
+		}
+
+		footer.beian-footer {
+			z-index: 2;
+			position: relative;
+			margin-top: auto;
+			padding-top: 20px;
+			border-top: 1px solid rgba(255, 255, 255, 0.1);
+			font-size: 0.7rem;
+			color: #7a7d82;
+			transition: all 0.2s;
+
+			.beian-link {
+				color: #7a7d82;
+				text-decoration: none;
+				transition: all 0.2s;
+
+				&:hover {
+					color: #b6b6b6;
+					text-shadow: 0 0 1px #b6b6b6;
 				}
 			}
 		}
